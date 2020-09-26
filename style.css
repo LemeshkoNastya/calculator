@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    width: 86px;
+    height: 80px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #000000;
+
+    border: none;
+    outline: none;
+
+    background: white;
+}
+
+.calculator-background {
+    background: linear-gradient(200deg, #B9E9F5, #A376C6);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    left: 560px;
+    width: 370px;
+    height: 680px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border: 3px solid #C2C1C1;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.keyboard {
+    position: fixed;
+    width: 368px;
+    height: 509px;
+    top: 210px;
+} 
+
+.column1 {
+    left: 3px;
+}
+
+.column2 {
+    left: 94px;
+}
+
+.column3 {
+    left: 185px;
+}
+
+.column4 {
+    left: 275px;
+} 
+
+.line5 {
+    top: 84px;
+}
+
+.line4 {
+    top: 168px;
+}
+
+.line3 {
+    top: 252px;
+}
+
+.line2 {
+    top: 336px;
+}
+
+.line1 {
+    top: 420px;
+}
+
+.ac {
+    width: 177px;
+}
+
+.equal {
+    width: 268px;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.equal, .ac, .sign {
+    border-radius: 60px;
+    border: 1px solid #D1D0D0;
+}
+
+.ac:hover, .sign:hover {
+    background: #D1D0D0;
+}
+
+.equal:hover {
+    border: none;
+    background: #FF8787;
+    color: white;
+}
+
+.operation {
+    /* border-radius: 0px 0px 30px; */
+    border-radius: 60px;
+    /* border: 1px solid #FF8787; */
+    background: #FF8787;
+    color: white;
+}
+
+.operation:hover {
+    background: #f15555;
+}
+
+.output {
+    height: 150px;
+    grid-column: 1 / -1;
+    background-color:white;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-right: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: #FF6363;
+    font-size: 30px;
+}
+
+.output .current-operand {
+    color: black;
+    font-size: 60px;
+}
+
+
+
+
+
