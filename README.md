@@ -1,1 +1,3 @@
-https://github.com/LemeshkoNastya/calculator.git 
+# calculator
+
+https://lemeshkonastya.github.io/calculator/
