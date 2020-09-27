@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator-background">
+        <div class="calculator">
+            <div class="output">
+                <!-- первый операнд экрана -->
+                <div data-previous-operand class="previous-operand"></div>
+                <!-- второй операнд экрана -->
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <div class="keyboard">
+                <button data-all-clear class="ac column1">AC</button>
+                <button data-delete class="sign column3">DEL</button>
+                <button data-operation class="operation column4">^</button>
+                <button data-number class="sign column1 line5">7</button>
+                <button data-number class="sign column2 line5">8</button>
+                <button data-number class="sign column3 line5">9</button>
+                <button data-sqrt class="operation column4 line5">√</button>
+                <button data-number class="sign column1 line4">4</button>
+                <button data-number class="sign column2 line4">5</button>
+                <button data-number class="sign column3 line4">6</button>
+                <button data-operation class="operation column4 line4">÷</button>
+                <button data-number class="sign column1 line3">1</button>
+                <button data-number class="sign column2 line3">2</button>
+                <button data-number class="sign column3 line3">3</button>
+                <button data-operation class="operation column4 line3">×</button>
+                <button data-number class="sign column1 line2">0</button>
+                <button data-number class="sign column2 line2">.</button>
+                <button data-negative class="sign column3 line2">±</button>
+                <button data-operation class="operation column4 line2">-</button>
+                <button data-equals class="equal column1 line1">=</button>
+                <button data-operation class="operation column4 line1">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
